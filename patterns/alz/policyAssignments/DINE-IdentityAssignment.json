@@ -41,7 +41,7 @@
         },
         "rbacContributor": "b24988ac-6180-42a0-ab88-20f7382dd24c",
         "roleAssignmentNames": {
-            "deployAMBAIdentity": "[guid(concat(parameters('topLevelManagementGroupPrefix'), variables('policyAssignmentNames').ambaIdentity))]"
+            "deployAMBAIdentity": "[guid(concat(parameters('topLevelManagementGroupPrefix'), variables('policyAssignmentNames').ambaIdentity),'00')]"
         }
     },
     "resources": [
