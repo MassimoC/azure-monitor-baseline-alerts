@@ -41,7 +41,7 @@
         },
         "rbacContributor": "b24988ac-6180-42a0-ab88-20f7382dd24c",
         "roleAssignmentNames": {
-            "deployAMBAServiceHealth": "[guid(concat(parameters('topLevelManagementGroupPrefix'), variables('policyAssignmentNames').ambaServiceHealth),'01')]"
+            "deployAMBAServiceHealth": "[guid(concat(parameters('topLevelManagementGroupPrefix'), variables('policyAssignmentNames').ambaServiceHealth),'02')]"
         }
     },
     "resources": [
